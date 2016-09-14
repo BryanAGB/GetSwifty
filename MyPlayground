@@ -1,0 +1,54 @@
+//: Playground - noun: a place where people can play
+
+import UIKit
+
+var str = "Hello, playground"
+
+var fname = "Bryan"
+
+var sname = "Mansell"
+var space = " "
+var fullName = fname +  space + sname
+
+var number1 = 2
+
+var number2 = 3
+
+var answer = ""
+
+number1
+
+number2
+
+number1 + number1
+
+number1 + number2
+
+number1 = 5
+
+number1 + number2
+
+number1 == number2
+
+number1 == number1
+
+func test() { //Checks if number1 is equal to nunmber2
+
+    
+if number1 == number2 {
+    answer = "Number 1 is equal to number 2"
+    }
+    else{
+    answer = "Number 1 does not equal number 2"}
+}
+
+test()
+answer
+
+number2 = number1
+
+test()
+
+answer
+
+number1 += number2
