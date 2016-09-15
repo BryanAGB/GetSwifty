@@ -52,3 +52,26 @@ test()
 answer
 
 number1 += number2
+
+// Testing arrays
+
+//Create array
+
+var car : [String] = ["make","model","style"]
+
+//assign values
+
+car[0] = "Nissan"
+car[1] = "350z"
+car[2] = "Sports"
+
+//output values
+
+car[0]
+car[1]
+car[2]
+
+//print values
+
+print("My car is a \(car[0]), \(car[1]), \(car[2]) car", terminator:"")
+
